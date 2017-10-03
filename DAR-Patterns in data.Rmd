@@ -49,16 +49,33 @@ Both of these variables are numerical. A good graphical method would be a scatte
 
 # Results
 <!--You have both graphical and numerical methods, so you will have both graphical and numerical results to consider.!-->
-
+We can find the answer to our question in two ways: graphing (box and whisker plot) and a numerical result (favstats).
 
 ## Graphical Results
 <!--Your graph should have a good title, and axes should be labled as needed.  Discuss your graphical results, showing how they answer the research question.  Use specific features of the graph in your discussion.!-->
+The Box and Whisker Plot helps us to identify the difference betweent the two positions.
+```{r echo=FALSE}
+bwplot(pushups ~ position,
+	data = pushups,
+	panel = function(..., box.ratio) {
+		panel.bwplot(..., fill = NULL, box.ratio = 0.1)
+		panel.violin(..., col = "burlywood", border = "grey60", alpha = 0.5, varwidth = FALSE)},
+	main = "Who Can Do More Pushups?")
+```
 
+The boxes are far apart, we can conclude that there is a huge difference between a line and a skill player. With the violin feature, we can determine the average amount of pushups each position can do.
 
 
 ## Numerical Results
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+This table identifies the amount of players that could do the specified number of pushups.
 
+```{r echo=FALSE}
+favstats(pushups~position, data=pushups)
+
+```
+
+According to this we can determine that skill players can do more pushups than line players by determining the average.
 
 
 
