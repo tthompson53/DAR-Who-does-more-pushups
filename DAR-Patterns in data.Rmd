@@ -14,7 +14,7 @@ require(tigerstats)
 
 # Introduction
 
-Several years ago some MAT 111 students who were on the footbal team conducted a study of their team-mates.  The results are contained in the data frame `pushups` in the `tigerstats` package.
+Several years ago some MAT 111 students who were on the football team conducted a study of their team-mates.  The results are contained in the data frame `pushups` in the `tigerstats` package.
 
 ```{r eval=FALSE}
 data(pushups)
@@ -34,6 +34,14 @@ Our Research Question is:
 # Methods
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
+What methods are appropriate for analyzing our data? The choice ofmethod depends on the nature of the vairables involved in the Research Question.
+
+The two variables involved are:
+
+-The position, which is a factor variable with two values ("Line Player" and "Skill Player").
+-The amount of pushups, which is also a factor variable, but with two values: "Position" and "Weight"
+
+Both of these variables are numerical. A good graphical method would be a scatter plot. A numerical approach would be to study the relationship between the two numerical values. This can be found by finding the regression line. This is done using the function favstats and T Tests. OF course this will only make sense if the scatterplot shows that the relationship is linear.
 
 
 
@@ -47,14 +55,25 @@ Our Research Question is:
 <!--Your graph should have a good title, and axes should be labled as needed.  Discuss your graphical results, showing how they answer the research question.  Use specific features of the graph in your discussion.!-->
 
 
+
 ## Numerical Results
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+
+
+
+
+
 
 
 # Inferential Results
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
 
+
+
+
+
 # Discussion and Conclusion
 <!--State your overall conclusion.  This is also a good place to mention other Research Questions that came to mind as you were carrying out this study.!-->
-
+ 

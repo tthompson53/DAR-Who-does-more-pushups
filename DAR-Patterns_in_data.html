@@ -126,7 +126,7 @@ $(document).ready(function () {
 <!-- We recommend you use git branches -- create a separate branch for each major section i.e. Introduction, Methods, Results, Inferential Results, and Discussion and Conclusions - leave the YAML block untouched until the final merge where you put in your own name !-->
 <div id="introduction" class="section level1">
 <h1>Introduction</h1>
-<p>Several years ago some MAT 111 students who were on the footbal team conducted a study of their team-mates. The results are contained in the data frame <code>pushups</code> in the <code>tigerstats</code> package.</p>
+<p>Several years ago some MAT 111 students who were on the football team conducted a study of their team-mates. The results are contained in the data frame <code>pushups</code> in the <code>tigerstats</code> package.</p>
 <pre class="r"><code>data(pushups)
 View(pushups)
 help(pushups)</code></pre>
@@ -140,6 +140,10 @@ help(pushups)</code></pre>
 <div id="methods" class="section level1">
 <h1>Methods</h1>
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
+<p>What methods are appropriate for analyzing our data? The choice ofmethod depends on the nature of the vairables involved in the Research Question.</p>
+<p>The two variables involved are:</p>
+<p>-The position, which is a factor variable with two values (“Line Player” and “Skill Player”). -The amount of pushups, which is also a factor variable, but with two values: “Position” and “Weight”</p>
+<p>Both of these variables are numerical. A good graphical method would be a scatter plot. A numerical approach would be to study the relationship between the two numerical values. This can be found by finding the regression line. This is done using the function favstats and T Tests. OF course this will only make sense if the scatterplot shows that the relationship is linear.</p>
 </div>
 <div id="results" class="section level1">
 <h1>Results</h1>
