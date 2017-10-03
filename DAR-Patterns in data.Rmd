@@ -24,13 +24,13 @@ help(pushups)
 
 Among other things, the students recorded the type of position a player had on the team (either line or skill), and also the number of push-ups each player could perform in a two-minute period.
 
-Line players are on the offensive or defensive line.  They need to be a certain kind of speed, but they must also be quite big and strong.  Skill players do a lot of runninga and catching:  they are the quarterback, running backs, receivers, etc.
+Line players are on the offensive or defensive line.  They need to be a certain kind of speed, but they must also be quite big and strong.  Skill players do a lot of running and catching:  they are the quarterback, running backs, receivers, etc.
 
 Our Research Question is:
 
   >Who does more pushups, on average: a line player or a skill player?
 
-
+In addition to who does more pushups, we will run a series of tests to show how different line and skill players are. 
 # Methods
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
