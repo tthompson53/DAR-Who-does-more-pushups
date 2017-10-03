@@ -85,12 +85,27 @@ According to this we can determine that skill players can do more pushups than l
 
 # Inferential Results
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+```{r echo=FALSE}
+ttestGC(pushups~position, data=pushups)
+
+t.test(pushups~position, data=pushups)
+```
+Our Null Hypothesis shall be:
+
+$H_0$: There is no relationship between the position of the players and the amount of pushups they can do.
+
+Our Alternative Hypothesis shall be:
+
+$H_0a$: There is a relationship between the position of the players and the amount of pushups they can do.
+
+<<<<<<< HEAD
 
 
 
 
-
-
+=======
+There is a 95% confidence interval that there is a difference between the two positions.
+>>>>>>> infer2
 # Discussion and Conclusion
 <!--State your overall conclusion.  This is also a good place to mention other Research Questions that came to mind as you were carrying out this study.!-->
  
