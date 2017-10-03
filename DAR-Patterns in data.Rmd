@@ -108,4 +108,8 @@ There is a 95% confidence interval that there is a difference between the two po
 >>>>>>> infer2
 # Discussion and Conclusion
 <!--State your overall conclusion.  This is also a good place to mention other Research Questions that came to mind as you were carrying out this study.!-->
+<<<<<<< HEAD
  
+=======
+Based on all of these results we can conclude that there is a 95% confidence interval that there is a difference between the two positions. Skill players can do more pushups than line players. Even the average person with basic knowledge of football can conclude the same results. Line players are on the offense and defense and are required to be heavier with a higher body mass. Skill players run around trying to prevent the other team from scoring. They need to run around more than line players meaning, they need to be lighter to be faster. Based on this, a person can conclude that the lighter the body the more pushups a person can do.
+>>>>>>> conclusion2
