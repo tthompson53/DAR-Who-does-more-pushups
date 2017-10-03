@@ -55,6 +55,7 @@ bwplot(pushups ~ position,
 	main = "Who Can Do More Pushups?")
 ```
 
+The boxes are far apart, we can conclude that there is a huge difference between a line and a skill player. With the violin feature, we can determine the average amount of pushups each position can do.
 
 ## Numerical Results
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
@@ -64,6 +65,8 @@ This table identifies the amount of players that could do the specified number o
 favstats(pushups~position, data=pushups)
 
 ```
+
+According to this we can determine that skill players can do more pushups than line players by determining the average.
 
 # Inferential Results
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
